@@ -13,3 +13,14 @@ open `http://localhost:80` in the browser
 navigate to the `broker-service` folder
 
 run `go run ./cmd/api` in terminal
+
+# build & run docker compose
+
+navigate to the `project` folder
+
+run `docker compose up -d` in terminal
+
+enter the terminal of the docker instance:
+```
+docker compose exec broker-service ash
+```
