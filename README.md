@@ -18,9 +18,17 @@ run `go run ./cmd/api` in terminal
 
 navigate to the `project` folder
 
-run `docker compose up -d` in terminal
+to run docker instance in the background:
+```
+docker compose up -d
+```
 
-enter the terminal of the docker instance:
+to enter the terminal of the docker instance:
 ```
 docker compose exec broker-service ash
+```
+
+to stop docker instance:
+```
+docker compose stop
 ```
