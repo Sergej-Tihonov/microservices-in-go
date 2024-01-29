@@ -34,3 +34,7 @@ go.work
 ### build artifacts ###
 /front-end/frontApp
 /broker-service/brokerApp
+/authentication-service/authApp
+
+### database ###
+/project/db-data
